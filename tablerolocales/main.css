@@ -1,0 +1,137 @@
+html{
+    font-family: 'Lalezar', cursive;
+    /*background-color: #dadada;*/
+    background-color: rgba(218, 218, 218,0.4);
+}
+html,body {
+    height: 95%;
+}
+.nodisp{
+    height: 200px;
+    font-size: 3em;
+}
+.imgno{
+    margin-top: 5%;
+}
+.box{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.tarjeta{
+    /*margin-top: 10px;*/
+    height: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.icons{
+    width: 9vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*@media (height > )*/
+.container>*{
+    /*flex: 12%;*/
+}
+.nombres{
+    text-align: center;
+    color: #002244;
+    margin-top: -12px;
+    /*color: #fb6b07;*/
+}
+#content{
+    /*border-right: 3px solid #002244;*/
+}
+#header{
+    /*display: flex;*/
+}
+#contit{
+    display: flex;
+    flex: 90%;
+    height: 70px;
+    /*background-color: rgba(255,83,25,0.7);*/
+    /*border: solid snow 5px;*/
+    background-color: snow;
+    border-top: 5px solid #004C92;
+    border-bottom: 5px solid #CCC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 1.5%;
+    font-size: 1.3em;
+}
+#titulo{
+    color: #002244;
+    padding-left: 12%;
+    flex-grow: 0.5;
+}
+#cadena{
+    /*div con el logo*/
+    /*top: -1.6%;*/
+    margin-top: 1.5%;
+    margin-right: 10%;
+    /*margin-bottom: auto;*/
+    /*position: absolute;*/
+}
+#logoC{
+    /*img logo cadena*/
+    height: 100px;
+    /*margin-bottom: -10px;*/
+}
+#salir{
+    margin-left: auto;
+    order: 2;
+    text-decoration: none;
+
+}
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #002244;
+}
+#footer{
+    display: flex;
+    background-color: #004C92;
+    justify-content:center ;
+    /*border: solid snow 5px;*/
+    border-bottom: 5px solid rgba(255,83,25,0.7);
+    border-top: 5px solid #CCC;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#piedp{
+    height: 90px;
+    padding: -20px;
+}
+
+/*solo para abandonadores*/
+.peq{
+    font-size: 0.9em;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 280px;
+}
+.gde{
+    font-size: 3em;
+    margin-bottom: -1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: dodgerblue;
+}
+.imgpq{
+    width: 5vw;
+}
+/*fin aband*/
